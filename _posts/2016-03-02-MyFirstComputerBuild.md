@@ -3,6 +3,7 @@ title: My First Computer Build
 date: 2016-03-02 12:30:00 -0700
 categories: [Projects]
 tags: [pcs, computers]     # TAG names should always be lowercase
+image: /assets/MyFirstComputerBuild/close-up.jpg
 ---
 
 I have always been interested in computers, but in the summer of 2014, I finally got to build one myself.
@@ -12,7 +13,7 @@ I have always been pretty comfortable using a computer, but I had never given th
 Most of my research and learning was done through YouTube. There are a ton of awesome tech channels that I found ([Linus Tech Tips](https://www.youtube.com/user/LinusTechTips), [Paul's Hardware](https://www.youtube.com/user/paulshardware), [JayzTwoCents](https://www.youtube.com/user/Jayztwocents), and [NeweggTV](https://www.youtube.com/user/newegg) to name a few) and so many of them were instrumental in teaching me how computers work, what components to use, and how to actually put them together.
 
 
-![](/assets/images/MyFirstComputerBuild/parts.jpg)
+![](/assets/MyFirstComputerBuild/parts.jpg)
 _All of my components for the computer_
 
 The parts I used were:
@@ -29,23 +30,23 @@ The parts I used were:
 
 I first tested everything outside the case and made sure it all worked, which it did!
 
-![](/assets/images/MyFirstComputerBuild/boot_test.jpg)
+![](/assets/MyFirstComputerBuild/boot_test.jpg)
 _The first successful POST of my computer_
 
 After that all I had to do was put everything into the case and get all the cables tidied up.
 
-![](/assets/images/MyFirstComputerBuild/initial-build.jpg)
+![](/assets/MyFirstComputerBuild/initial-build.jpg)
 _The whole thing put together (sorry for the glare)_
 
 At this point the computer was all together and working just fine, but I really wanted to water cool my computer. To some people it seems ridiculous, but I thought it would be really cool and a lot of fun. Since it was my first time dealing with water cooling, I went ahead and got a kit. Thankfully it installed with no problem and I didn't have any leaks.
 
-![](/assets/images/MyFirstComputerBuild/wc-test.jpg)
+![](/assets/MyFirstComputerBuild/wc-test.jpg)
 _Testing the new water cooling kit. Everything except the lights and pump are powered off in case of leaks and the paper towels are there to help spot any drips._
 
 With the water cooling, I was able to overclock my processor to 4.5 GHz which has been awesome for CPU intensive things like running machine learning algorithms and Project Euler problems. Also, finally having an SSD was a fantastic upgrade from my old laptop and its slow HDD. I have done some minor tweaking here and there but as of this post, about 1.5 years after it was built, it is still running strong and doing great for me!
 
-![](/assets/images/MyFirstComputerBuild/wc-done-closed.jpg)
+![](/assets/MyFirstComputerBuild/wc-done-closed.jpg)
 _The final product_
 
-![](/assets/images/MyFirstComputerBuild/wc-done-open.jpg)
+![](/assets/MyFirstComputerBuild/wc-done-open.jpg)
 _With the case off and all the lights on (this picture is from about a year after the initial build so you might notice the water cooling route has been slightly changed)_

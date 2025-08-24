@@ -8,7 +8,7 @@ tags: [3dprinting]     # TAG names should always be lowercase
 
 The unassuming green square of plastic in my hand was quite revolutionary at the time this picture was taken.
 
-![](/assets/images/BuildingA3dPrinter/square.JPG)
+![](/assets/BuildingA3dPrinter/square.JPG)
 
 This was the first ever print from a 3d printer that my friends and I had built in our college dorm room. Clearly there was some work to do still, but the fact that it was even possible to shove plastic through a hot nozzle and layer it into a 3 dimensional shape was incredible! 
 
@@ -16,7 +16,7 @@ This was done in May of 2012 - just as mainstream 3d printers like Makerbots wer
 
 It took many months and made a huge mess of our dorm, but in the end it finally came together.
 
-![The finished printer](/assets/images/BuildingA3dPrinter/printer.JPG)
+![The finished printer](/assets/BuildingA3dPrinter/printer.JPG)
 _The finished printer_
 
 Not exactly the most beautiful thing ever (also none of us were EEs.... if you couldn't tell from our wiring) but it was assembled! And then didn't print anything...
@@ -27,7 +27,7 @@ After that, we were able to run the printer, but since we had no idea what we we
 
 Many more months of troubleshooting, tweaking, and testing later and we could finally make reliable awesome prints!
 
-![3D printed stuff](/assets/images/BuildingA3dPrinter/prints.JPG)
+![3D printed stuff](/assets/BuildingA3dPrinter/prints.JPG)
 _3D printed stuff!_
 
 Those were the glory days of this printer. And then we tried to get too fancy. We tried to add a better bed surface as well as tune the printer to reduce the backlash further so we could actually print parts that would fit together. This sounded like a good idea at the time but a few too many crashes into the bed resulted in a clogged nozzle and plastic leaking out all of the places it was never supposed to.
