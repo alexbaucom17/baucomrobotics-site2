@@ -25,4 +25,4 @@ All of these are ideas we have been researching and reviewing in order to determ
 
 -------------------------------
 
-If you want to read a more in depth review of a few different walking methods that we reviewed, you can read [this paper](/assets/BabySteps/projectReport.pdf) that I wrote.
+If you want to read a more in depth review of a few different walking methods that we reviewed, you can read [this paper]({{ '/assets/BabySteps/projectReport.pdf' | relative_url}}) that I wrote.
