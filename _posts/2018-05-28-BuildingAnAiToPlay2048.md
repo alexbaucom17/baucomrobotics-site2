@@ -8,7 +8,7 @@ tags: [ml, ai]     # TAG names should always be lowercase
 
 ## Background
 
-I was inspired by [carykh's excellent Evolution Simulator](https://www.youtube.com/watch?v=GOFws_hhZs8) series to try my own hand at programming a basic AI. I had [some AI experience](http://baucomrobotics.com/projects/2016/3/8/machine-learning) from grad school but had never implemented my own neural network from scratch, so I decided to try it out and see where I got. Note that all of the code for this project is [available on GitHub](https://github.com/alexbaucom17/AI2048).
+I was inspired by [carykh's excellent Evolution Simulator](https://www.youtube.com/watch?v=GOFws_hhZs8) series to try my own hand at programming a basic AI. I had [some AI experience](https://baucomrobotics.com/projects/2016/3/8/machine-learning) from grad school but had never implemented my own neural network from scratch, so I decided to try it out and see where I got. Note that all of the code for this project is [available on GitHub](https://github.com/alexbaucom17/AI2048).
 
 I chose to have my AI learn to play the [game 2048](https://en.wikipedia.org/wiki/2048_(video_game)) since I enjoy that game quite a lot and it would be relatively simple to program from scratch. I built my own version of 2048 using Python and numpy and put a simple gui on top of it to make the game look like the original. If you aren't familiar with the game, there is a 4 x 4 grid where tiles are randomly generated with values of 2 or 4. When you swipe left, right, up, or down, the tiles all move in that direction and matching tiles which are next to each other combine to form a tile equal to their sum. The goal is to reach a tile with the value of 2048.
 

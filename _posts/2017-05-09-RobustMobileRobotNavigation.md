@@ -15,12 +15,12 @@ For our purposes, we defined 'robustness' to be the ability to reliably do the f
 - Recover appropriately from collisions with unexpected obstacles or path obstructions
 - Run for extended periods of time in unsupervised, real-world environments
 
-To build good quality maps, we switched from [gmapping](http://wiki.ros.org/gmapping) to a new package from Google called [Cartographer](https://google-cartographer-ros.readthedocs.io/en/latest/). With a bit of tuning (including some very helpful tips from the developers themselves), the robot was able to build incredibly detailed and accurate maps like the one here.
+To build good quality maps, we switched from [gmapping](https://wiki.ros.org/gmapping) to a new package from Google called [Cartographer](https://google-cartographer-ros.readthedocs.io/en/latest/). With a bit of tuning (including some very helpful tips from the developers themselves), the robot was able to build incredibly detailed and accurate maps like the one here.
 
 ![](/assets/MyFirstComputerBuild/parts.jpg)
 _A large scale, high quality map made by Cartographer. The map is about 90m long and 70m tall._
 
-With the better quality map, the robot was able to maintain its localization in the hallways very easily since the map matched the real world so accurately. However, it would still sometimes have trouble extricating itself from a crowded area with lots of obstacles if it accidentally ran into something. To solve this problem, we switched to a new local planner called [teb_local_planner](http://wiki.ros.org/teb_local_planner), which is a far better planner than the default planner that many people use. This planner avoids obstacles very well and can handle backing up to go around an unexpected obstacle with ease. You can see it in action in the video below. 
+With the better quality map, the robot was able to maintain its localization in the hallways very easily since the map matched the real world so accurately. However, it would still sometimes have trouble extricating itself from a crowded area with lots of obstacles if it accidentally ran into something. To solve this problem, we switched to a new local planner called [teb_local_planner](https://wiki.ros.org/teb_local_planner), which is a far better planner than the default planner that many people use. This planner avoids obstacles very well and can handle backing up to go around an unexpected obstacle with ease. You can see it in action in the video below. 
 
 {% include embed/youtube.html id='pcN7uQKB4n8' %}
 

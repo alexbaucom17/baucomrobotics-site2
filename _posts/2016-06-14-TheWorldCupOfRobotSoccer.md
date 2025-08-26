@@ -7,7 +7,7 @@ tags: [robotics, robocup]     # TAG names should always be lowercase
 
 A few weeks ago I had the chance to attend [RoboCup 2016](https://www.robocup.org/) in Leipzig, Germany. RoboCup is sort of like the World Cup, but for robots. Various teams from around the world bring their robots together to compete in robotic soccer as well as all sorts of other events like search and rescue, the Amazon Picking Challenge, industrial logistics, and home service. 
 
-There are many different soccer leagues but the one that our team was a part of was the [Standard Platform League](http://www.tzi.de/spl/bin/view/Website/WebHome) (SPL). This league requires all teams to use only Aldebaran Nao robots and the competition involves programming them to play soccer autonomously. Read on to find out how our robots performed and how they work or scroll to the bottom if you just want to see pictures.
+There are many different soccer leagues but the one that our team was a part of was the [Standard Platform League](https://www.tzi.de/spl/bin/view/Website/WebHome) (SPL). This league requires all teams to use only Aldebaran Nao robots and the competition involves programming them to play soccer autonomously. Read on to find out how our robots performed and how they work or scroll to the bottom if you just want to see pictures.
 
 ## Penn’s performance
 
