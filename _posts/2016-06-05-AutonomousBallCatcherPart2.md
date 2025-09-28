@@ -8,7 +8,7 @@ math: true
 
 
 
-If you have read my previous post you will know that I recently built an automated ball catcher and programmed it to track and catch a ball. In that post I showed off the hardware and a video of it in action, so check it out [here](https://www.baucomrobotics.com/projects/2016/5/6/autonomous-ball-catcher-pt-1) if you missed it! In this post I will talk about the software behind making the catcher work. If you would like to look through the source code itself, you can find all if it on my [Github page](https://github.com/BaucomRobotics/BallCatcher).
+If you have read my previous post you will know that I recently built an automated ball catcher and programmed it to track and catch a ball. In that post I showed off the hardware and a video of it in action, so check it out [here]({% post_url 2016-05-24-AutonomousBallCatcherPart1 %}) if you missed it! In this post I will talk about the software behind making the catcher work. If you would like to look through the source code itself, you can find all if it on my [Github page](https://github.com/BaucomRobotics/BallCatcher).
 
 I used MATLAB as the main coding environment, mostly because I am very familiar with it and it is great for doing all sorts of high level programming. To communicate with my Lego NXT, I downloaded a toolbox which you can find [here](https://www.mindstorms.rwth-aachen.de/). This let me do stuff like read the sensors and control the motors through the NXT. The structure of the software can be broken down as follows: initialization, image analysis, flight path analysis, and cart control.
 

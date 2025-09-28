@@ -150,6 +150,4 @@ _Congratulating Dom after the dominos fell over._
 ![](/assets/MyFirstComputerBuild/parts.jpg)
 _The aftermath. Cleaning up 100,000 dominos is a lot of work!!_
 
-## TODO add links here
-
-Thanks for reading about this crazy engineering journey I went on to make this robot a reality. If you are interested in more details about how the final hardware or software worked, I’ve written up articles about those. If you want to dive deep into the technical workings of the control system or trajectory generation, I got posts about those as well. 
+Thanks for reading about this crazy engineering journey I went on to make this robot a reality. If you are interested in more details about how the final [hardware]({% post_url 2021-07-26-DominoRobotHardwareOverview %}) or [software]({% post_url 2021-07-24-DominoRobotSoftwareArchitecture %}) worked, I’ve written up articles about those. If you want to dive deep into the technical workings of the [control system]({% post_url 2021-07-22-DominoRobotControlSystem %}) or [trajectory generation]({% post_url 2021-07-23-DominoRobotTrajectoryGeneration %}), I got posts about those as well. 

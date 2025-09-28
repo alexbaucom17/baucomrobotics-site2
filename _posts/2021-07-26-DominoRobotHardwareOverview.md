@@ -19,4 +19,4 @@ As for electronics, the main ‘brains’ of the robot run on a Raspberry Pi 4 w
 
 ![](/assets/MyFirstComputerBuild/parts.jpg)
 
-That’s about it for the major hardware components of the robot. Consider checking out the major software components next!
+That’s about it for the major hardware components of the robot. Consider checking out the major [software components]({% post_url 2021-07-24-DominoRobotSoftwareArchitecture %}) next!
