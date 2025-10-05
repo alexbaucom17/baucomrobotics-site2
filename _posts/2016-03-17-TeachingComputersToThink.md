@@ -40,11 +40,11 @@ Following advice from [this website](https://mlwave.com/kaggle-ensembling-guide/
 
 Each of the three scores for each point was normalized and then the features were expanded by multiplying the scores together in various permutations to capture any interactions between the different models. Using one final SVM on this last set of expanded scores yielded results around 93-94% accuracy, depending on how the data was randomly split.
 
-![](/assets/MyFirstComputerBuild/parts.jpg)
-_A plot of the score SVM using only the image scores and the boosted words score (the SVM on the words is not included here)_
+![](/assets/MachineLearningCourse/ScoreSVM.jpg)
+_A plot of the score SVM using only the image scores and the boosted words score (the SVM on the words is not included here). Click to see a larger image._
 
-![](/assets/MyFirstComputerBuild/parts.jpg)
-_A zoomed in view of the previous plot to show the support vectors_
+![](/assets/MachineLearningCourse/ScoreSVMZoomed.jpg)
+_A zoomed in view of the previous plot to show the support vectors. Click to enlarge._
 
 
 ## Results
