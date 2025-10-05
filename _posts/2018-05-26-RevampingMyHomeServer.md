@@ -64,7 +64,7 @@ I chose to convert all of my backups over to [Duplicati](https://www.duplicati.c
 
 I chose Duplicati because it is free for all platforms, integrates with a number of different storage back ends, and has a docker container. The documentation for this container is on [Docker Hub](https://hub.docker.com/r/linuxserver/duplicati/) but all I needed to get it running for me was:
 
-```
+```bash
 docker create \
   --name=duplicati \
   -v /home/alex/duplicati_config:/config \

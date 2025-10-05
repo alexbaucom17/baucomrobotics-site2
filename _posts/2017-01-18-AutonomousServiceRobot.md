@@ -11,8 +11,8 @@ This past semester I got a chance to work on a really cool project that involved
 
 The hardware platform we used is show in the picture below. For more details on the hardware, please refer to [this paper](https://www.seas.upenn.edu/~eeaton/papers/Eaton2016Design.pdf). We used the Robot Operating System ([ROS](https://wiki.ros.org/)) as the messaging framework.
 
-![](/assets/MyFirstComputerBuild/parts.jpg)
-_The standardized hardware platform: Kobuki Turtlebot base, Intel NUC, Microsoft Kinect, Hokuyo URG-04LX Lidar (not pictured, normally mounted on the white velcro strips)_
+![](/assets/ServiceRobot/robot.jpg)
+_The standardized hardware platform: Kobuki Turtlebot base, Intel NUC, Microsoft Kinect, Hokuyo URG-04LX Lidar_
 
 ## Navigation
 
@@ -20,7 +20,7 @@ I was part of the navigation focus group and it was our job to enable the robot 
 
 The major problem we ran into was building maps and localizing in long, featureless hallways (at least featureless according to a lidar). Since long hallways were the primary environment that these robots were to be operating in, this posed quite a challenge. We tried experimenting with various software packages, spent many hours tweaking parameters for each of the packages, and researched adding supplementary sensor streams such as wifi or vision. Due to time constraints, in the end we had some software and a set of parameters that was passable, but not as robust as any of us really wanted. The robot could build great maps and drive around with very few problems in feature-rich areas, but would often get lost and confused when driving straight down a hallway. I will be continuing work on this project during this semester as an independent study and this is one of the primary areas I would like to research further and ideally improve.
 
-![](/assets/MyFirstComputerBuild/parts.jpg)
+![](/assets/ServiceRobot/levine_4th_full.png)
 _One of the maps we made that shows some of the issues we had. Many of the straight hallways sections are too short and curved slightly. Also, the loop closure is fairly poor here._
 
 One of the custom pieces of software my group worked on was a map labelling service. Instead of needing to give exact coordinates for the robot to move to, it is much more natural for humans to give a location name. We designed a system that could label various points on the map and use the label names to give the robot directions as to where to go. For one of our demos we also had fun integrating this label service with Amazon’s Alexa so that we could give voice commands to the robot.

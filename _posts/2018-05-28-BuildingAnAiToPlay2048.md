@@ -12,7 +12,7 @@ I was inspired by [carykh's excellent Evolution Simulator](https://www.youtube.c
 
 I chose to have my AI learn to play the [game 2048](https://en.wikipedia.org/wiki/2048_(video_game)) since I enjoy that game quite a lot and it would be relatively simple to program from scratch. I built my own version of 2048 using Python and numpy and put a simple gui on top of it to make the game look like the original. If you aren't familiar with the game, there is a 4 x 4 grid where tiles are randomly generated with values of 2 or 4. When you swipe left, right, up, or down, the tiles all move in that direction and matching tiles which are next to each other combine to form a tile equal to their sum. The goal is to reach a tile with the value of 2048.
 
-![](/assets/MyFirstComputerBuild/parts.jpg)
+![](/assets/AI2048/SampleGame.png)
 _A sample image from the game gui_
 
 ## Implementation
@@ -60,46 +60,46 @@ n_agents = 1500
 
 The initial generation of agents was essentially random output, and they clearly don't make it very far, as the median agent of that generation shows.
 
-![](/assets/MyFirstComputerBuild/parts.jpg)
+![](/assets/AI2048/MedianPlayer_0Gen_OldGame.gif)
 _The median agent after the first generation_
 
 However, there were some agents who did relatively well by chance. This is the best agent from the first generation. You can see that it is still pretty random motions with lots of back and forth, but this agent does well because it varies the selected move instead of just always picking a single direction (which almost always ends the game within a few turns).
 
-![](/assets/MyFirstComputerBuild/parts.jpg)
+![](/assets/AI2048/BestPlayer_0Gen_OldGame.gif)
 _The best agent after the first generation_
 
 After training for a while, an improvement is definitely noticeable as the best agent after 500 generations is able to reach 256 and had all the tiles available to make 512 when the game ended.
 
-![](/assets/MyFirstComputerBuild/parts.jpg)
+![](/assets/AI2048/BestPlayer_500Gen_OldGame.gif)
 _The best agent after 500 generations_
 
 Looking at the median agent shows that the population as a whole is progressing. This agent gets two 64 tiles by the time it finishes the game.
 
-![](/assets/MyFirstComputerBuild/parts.jpg)
+![](/assets/AI2048/MedianPlayer_500Gen_OldGame.gif)
 _The median agent after 500 generations_
 
 After training for 500 more generations, the best agent can reach 512. However, the median agent doesn't seem to have progressed much, only just barely reaching 128. Additionally, looking at some of the surrounding generations shows that the best agent of this generation got lucky to hit 512 as only about 1 in every 10 generations had an agent reach 512.
 
-![](/assets/MyFirstComputerBuild/parts.jpg)
+![](/assets/AI2048/BestPlayer_1000Gen_OldGame.gif)
 _The best agent after 1000 generations_
 
-![](/assets/MyFirstComputerBuild/parts.jpg)
+![](/assets/AI2048/MedianPlayer_1000Gen_OldGame.gif)
 _The median agent after 1000 generations_
 
 Looking a little bit further, it seems that the population has learned the game up to a point, but there is still quite a bit of random luck involved in getting a good score. Taking the best agent and having it play a couple new games generates some very interesting results (a new game is a game with different random seeds than the one it used to get its high score during the fitness test - this just changes where the new tiles pop up during the game) . We can see that on new games, this agent performs very similarly to the median agent.
 
-![](/assets/MyFirstComputerBuild/parts.jpg)
+![](/assets/AI2048/BestPlayer_1000Gen_NewGame1.gif)
 _The best agent after 1000 generations playing a new game_
 
-![](/assets/MyFirstComputerBuild/parts.jpg)
+![](/assets/AI2048/BestPlayer_1000Gen_NewGame2.gif)
 _The best agent after 1000 generations playing another new game_
 
 Additionally, having the median agent play two new games shows very similar results to the best agent's new games.
 
-![](/assets/MyFirstComputerBuild/parts.jpg)
+![](/assets/AI2048/MedianPlayer_1000Gen_NewGame1.gif)
 _The median player after 1000 generations playing a new game_
 
-![](/assets/MyFirstComputerBuild/parts.jpg)
+![](/assets/AI2048/MedianPlayer_1000Gen_NewGame2.gif)
 _The median player after 1000 generations playing another new game_
 
 This suggests to me that the population has fundamentally learned as much of the game as it can with the parameters I have set and now the higher scores are just a matter of luck rather than agent strategy.
