@@ -32,7 +32,7 @@ $$ \lambda x = K [R|t]X $$
 And inverting it to solve for the world coordinates
 
 $$
-X = R^T{K^{-1}\lambda x - t}
+X = R^T \{K^{-1}\lambda x - t\}
 $$
 
 This was a fairly simple calculation since all of the parameters were known from the calibration step during initialization. Once I had the 3D coordinates of the ball, I could try to determine where the ball was going to land.
@@ -55,8 +55,8 @@ Once the ball had either landed in the cart or missed and hit the ground, the lo
 
 I hope that was interesting and informative and gave you a glimpse into how this whole system worked. Again, if you want to look at the code in more depth or use parts of it in your own system, feel free to check out the [Github page](https://github.com/BaucomRobotics/BallCatcher).
 
-![](/assets/MyFirstComputerBuild/parts.jpg)
+![](/assets/BallCatcher2/ImgPlot.jpg)
 _A composite image showing all of the detected ball locations in white. Some of the detections look like streaks due to the motion blur from the camera so the centroid of the detected area was used as an estimate of the ball's location._
 
-![](/assets/MyFirstComputerBuild/parts.jpg)
+![](/assets/BallCatcher2/TrajPlot.jpg)
 _A graph showing the estimated trajectories of the ball. The motion blur error caused the first estimate with only three points to be upside-down, but you can see the rest of the landing estimates converging nicely over time._

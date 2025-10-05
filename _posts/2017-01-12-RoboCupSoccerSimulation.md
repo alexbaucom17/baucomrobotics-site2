@@ -37,10 +37,10 @@ The key aspects of the potential field function that have to be hand-designed ar
 
 Each heuristic has its own set of weights for each role and the total function is simply a sum of all the weighted attractive and repulsive functions. The functions for each role are machine generated before running the simulation for runtime optimization. During the simulation, each player only has to calculate the metrics previously mentioned and then pass them into the proper function for their role. Local gradient descent on the potential function is used to determine player velocity and they have reached the ‘desired position’ whenever the reach the field minimum. Local minima is not a major concern due to the dynamic nature of the environment.
 
-![](/assets/MyFirstComputerBuild/parts.jpg)
+![](/assets/RobocupSimulation/attacker_pff.jpg)
 _Visualization of the potential field function for the attacking player. A rough estimate of the path the player would take if the environment remained static is shown in red._
 
-![](/assets/MyFirstComputerBuild/parts.jpg)
+![](/assets/RobocupSimulation/defender_pff.jpg)
 _Visualization of the potential field function for the defending player. A rough estimate of the path the player would take if the environment remained static is shown in red._
 
 ## Learning details

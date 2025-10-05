@@ -39,74 +39,38 @@ Even though our team did relatively well at the competition this year, we still 
 
 Here are some pictures of stuff that was going on at RoboCup 2016!
 
-![](/assets/MyFirstComputerBuild/parts.jpg)
+![](/assets/Robocup/ourteam.jpg)
 _Our team: humans and robots_
 
-![](/assets/MyFirstComputerBuild/parts.jpg)
-_Our team: humans and robots_
-
-![](/assets/MyFirstComputerBuild/parts.jpg)
+![](/assets/Robocup/venue.jpg)
 _The venue: Leipzig-Messe_
 
-![](/assets/MyFirstComputerBuild/parts.jpg)
-_The venue: Leipzig-Messe_
-
-![](/assets/MyFirstComputerBuild/parts.jpg)
+![](/assets/Robocup/roboprep.jpg)
 _Getting the robots ready for action_
 
-![](/assets/MyFirstComputerBuild/parts.jpg)
-_Getting the robots ready for action_
-
-![](/assets/MyFirstComputerBuild/parts.jpg)
+![](/assets/Robocup/roboline2.jpg)
 _Robots from all teams around the world_
 
-![](/assets/MyFirstComputerBuild/parts.jpg)
-_Robots from all teams around the world_
-
-![](/assets/MyFirstComputerBuild/parts.jpg)
+![](/assets/Robocup/interview.jpg)
 _Our robots getting 'interviewed' by CNET_
 
-![](/assets/MyFirstComputerBuild/parts.jpg)
-_Our robots getting 'interviewed' by CNET_
-
-![](/assets/MyFirstComputerBuild/parts.jpg)
+![](/assets/Robocup/team.jpg)
 _Robots ready to play a match_
 
-![](/assets/MyFirstComputerBuild/parts.jpg)
-_Robots ready to play a match_
-
-![](/assets/MyFirstComputerBuild/parts.jpg)
+![](/assets/Robocup/mainfield.jpg)
 _The main SPL field_
 
-![](/assets/MyFirstComputerBuild/parts.jpg)
-_The main SPL field_
-
-![](/assets/MyFirstComputerBuild/parts.jpg)
+![](/assets/Robocup/midsize2.jpg)
 _The main Mid Sized League field_
 
-![](/assets/MyFirstComputerBuild/parts.jpg)
-_The main Mid Sized League field_
-
-![](/assets/MyFirstComputerBuild/parts.jpg)
+![](/assets/Robocup/mid-size.jpg)
 _Mid Sized League robots_
 
-![](/assets/MyFirstComputerBuild/parts.jpg)
-_Mid Sized League robots_
-
-![](/assets/MyFirstComputerBuild/parts.jpg)
+![](/assets/Robocup/adultsize.jpg)
 _Adult Sized Humanoid League Robot_
 
-![](/assets/MyFirstComputerBuild/parts.jpg)
-_Adult Sized Humanoid League Robot_
-
-![](/assets/MyFirstComputerBuild/parts.jpg)
+![](/assets/Robocup/rescue.jpg)
 _Humanoid Rescue Robot_
 
-![](/assets/MyFirstComputerBuild/parts.jpg)
-_Humanoid Rescue Robot_
-
-![](/assets/MyFirstComputerBuild/parts.jpg)
-_Closing Banquet_
-
-![](/assets/MyFirstComputerBuild/parts.jpg)
+![](/assets/Robocup/banquet.jpg)
 _Closing Banquet_

@@ -22,14 +22,14 @@ My ball catcher system is comprised of three main parts: the launcher, the camer
 
 The launcher went through several iterations to get to its final state. My initial thought was to build something akin to a tennis ball or baseball machine, where spinning wheels propel the ball with great speed. I got a prototype working of this where a single motor would both drive the spinning wheels as well as a rod to push the ball into contact with the wheels. However, the major downfall with this design was that the Lego parts can only have certain spacing between parts. So, even with a lot of tinkering and testing many different wheel varieties, I couldn’t get the wheels spaced properly to grip the ball well. It would either be too tight or too loose, neither of which work for launching a ball with any sort of speed.
 
-![](/assets/MyFirstComputerBuild/parts.jpg)
+![](/assets/BallCatcher1/FirstTry.jpg)
 _My first attempt at a launching device_
 
 So, I tried building a catapult device instead but very quickly abandoned that idea since I couldn’t get the ball to launch very high at all. I needed as much air time as possible to give my cart any chance of getting to the ball before it landed.
 
 I finally decided to try using rubber bands instead of motors to be my main energy delivery method (which I should have done with the catapult, but I didn’t think about that until after the fact). I used the rubber bands to make a slingshot-type of device and with some tweaks to the launch angles and pin release, I was able to get quite good flight times. I had to beef up the structure and brace everything quite a bit to make sure no pins or beams snapped. I also had to get clever with how to quickly pull the release pin out, but after a bit of tinkering I arrived and the final design seen here.
 
-![](/assets/MyFirstComputerBuild/parts.jpg)
+![](/assets/BallCatcher1/FinalLauncher.jpg)
 _The final launcher design_
 
 ## Camera
@@ -40,14 +40,12 @@ There wasn’t much to do in the way of hardware design for the camera. It is ju
 
 The biggest factor driving (pun completely unintentional) the design of the cart was speed. I knew that the ball would only be in the air for a second or so at most, so I needed to make sure the cart could actually move quickly enough to reach the goal in time. In order to make the cart move quickly, I had to cut down on weight as much as possible. To do this, I bought a long, flexible data cable and used the NXT brick as a stationary controller connected to the cart. This meant that the heaviest thing on the cart was just the motor, which I couldn’t exactly leave behind. I built a basket on the top of the cart and made a flat surface on the front of it to make sure that the ultrasonic sensor could read the position of the cart accurately.
 
-![](/assets/MyFirstComputerBuild/parts.jpg)
+![](/assets/BallCatcher1/Car.jpg)
 _The cart with a large basket to give the best chance of catching the ball_
 
 The trickiest part of the whole design was finding the right gear train. I wanted to gear up the wheels as much as possible so they would turn quickly, but if I made the ratio too high, the cart wouldn’t have enough torque to move. I eventually settled on a ratio of 5:1, which got the cart moving quickly enough to be viable. One problem I did run into was gear slippage. When the motor would try to stop, the gear train would sometimes slip. I was able to mostly fix this by beefing up the mounting system for the gears. This prevented the axles from bending, which kept the gears engaged and stopped them from slipping.
 
-![](/assets/MyFirstComputerBuild/parts.jpg)
+![](/assets/BallCatcher1/CarGearing.jpg)
 _The gear train driving the cart. The ratio here is 5:1_
 
-Well, that is about it for the hardware I used for this project. Feel free to look at some more of the pictures of the hardware below. Also, be sure to check back in a couple weeks for part two where I detail all of the software and code design!
-
-![](/assets/MyFirstComputerBuild/parts.jpg)
+Well, that is about it for the hardware I used for this project. Be sure to check back in a couple weeks for part two where I detail all of the software and code design!
