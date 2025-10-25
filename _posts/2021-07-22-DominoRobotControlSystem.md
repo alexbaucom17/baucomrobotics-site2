@@ -8,7 +8,7 @@ math: true
 
 Since the Domino Robot and all its [hardware]({% post_url 2021-07-26-DominoRobotHardwareOverview %}) and [software]({% post_url 2021-07-24-DominoRobotSoftwareArchitecture %}) were custom designed, this meant that I also needed to design a custom control system from the ground up. The diagram below shows all of the major components of the control system and I will explain each one in detail.
 
-![](/assets/MyFirstComputerBuild/parts.jpg)
+![](/assets/DominoRobot/ControlSystem/DominoRobotControllerFlowchart.png)
 _Major components of the Domino Robot Control System (click to enlarge)_
 
 ## Trajectory generation
@@ -101,8 +101,8 @@ Finally, the estimated position from the Kalman Filter as well as the estimated 
 
 The result of this control loop is that the robot drives smoothly with the controller tracking the position and velocity very accurately. In fact, I had a hard time even finding a plot to show that was marginally interesting because most of the ones I looked at have all the lines stacked right on top of each other.
 
-![](/assets/MyFirstComputerBuild/parts.jpg)
+![](/assets/DominoRobot/ControlSystem/DominoRobotControlPlot.webp)
 _A plot of the velocities from the controller during a movement (click to enlarge). You can see how the controller works to keep the actual velocity close to the target velocity. Some of the spikes in the graph where the controller pushes the actual velocity away from the target are likely due to correcting for a position error._
 
-![](/assets/MyFirstComputerBuild/parts.jpg)
+![](/assets/DominoRobot/ControlSystem/PXL_20210706_175417565_small.gif)
 _The robot smoothly executing a motion._
