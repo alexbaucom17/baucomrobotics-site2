@@ -89,9 +89,9 @@ Where this position measurement comes from depends on what mode the control syst
 
 In the coarse mode, the robot drives faster, doesn’t care as much about the accuracy of the final position, and only sometimes uses updates from the Marvelmind Indoor ‘GPS’. It only uses the updates some times because the latency of the measurements makes them much less accurate when the robot is at higher speeds, so it only uses the position updates when the velocity is reasonably slow. This coarse mode is used for most driving segments away from the domino field where speed is more important than accuracy. 
 
-In the fine mode, the max speed is lower, accuracy of the final position is a little bit more important, and the position is updated much more frequently with the Marvelmind sensors which have an accuracy on the order of $\pm 2$cm. This mode is used for the final approach movement near the domino field to ensure the position is accurate enough to avoid knocking over dominos.
+In the fine mode, the max speed is lower, accuracy of the final position is a little bit more important, and the position is updated much more frequently with the Marvelmind sensors which have an accuracy on the order of $\pm 2$cm. This mode is used for the final approach movement near the domino field to ensure the position is accurate enough to avoid knocking over dominoes.
 
-The final motion to line up the dominos is done with the vision mode. This mode uses the IR cameras on the robot to tracker markers on the ground which have been very precisely placed and can provide position measurements that are accurate on the order of millimeters. In this mode, the trajectory generation limits are even lower and the PID controller is tuned to ensure a very high level of accuracy.
+The final motion to line up the dominoes is done with the vision mode. This mode uses the IR cameras on the robot to tracker markers on the ground which have been very precisely placed and can provide position measurements that are accurate on the order of millimeters. In this mode, the trajectory generation limits are even lower and the PID controller is tuned to ensure a very high level of accuracy.
 
 ## Closing the Loop
 

@@ -16,7 +16,7 @@ A relatively standard velocity profile is called a “trapezoidal profile” and
 ![](/assets/DominoRobot/TrajectoryGeneration/TrapazoidalTrajectoryGeneration_WithGridlines.png)
 _Different regions of a trapezoidal profile._
 
-While this is a very simple method, one of the downsides of it is that it requires infinite jerk at each of the points where the acceleration has an instantaneous jump. This can cause vibrations and jerks (as the name implies) which is not ideal for a robot which needs to smoothly start and stop with high precision near dominos. An alternative to a trapezoidal profile is an “s-curve” profile which, in the general case, consists of seven constant jerk segments which allow for much smoother transitions.
+While this is a very simple method, one of the downsides of it is that it requires infinite jerk at each of the points where the acceleration has an instantaneous jump. This can cause vibrations and jerks (as the name implies) which is not ideal for a robot which needs to smoothly start and stop with high precision near dominoes. An alternative to a trapezoidal profile is an “s-curve” profile which, in the general case, consists of seven constant jerk segments which allow for much smoother transitions.
 
 ![](/assets/DominoRobot/TrajectoryGeneration/SmoothTrajectoryGeneration_WithGridlines.png)
 _Different regions of an s-curve velocity profile._

@@ -13,7 +13,7 @@ This whole project started in May of 2019 when I attended Maker Faire (RIP) in t
 ![](/assets/DominoRobot/DesignJourney/MakerFaire.jpg)
 _Me at Maker Faire 2019 attending Mark Rober’s talk._
 
-During this talk, someone asked Mark a question about one project he had always wanted to do but had never been able to. He said he had a vision for a robot that would set up ton dominos in a gymnasium overnight and that he had tried some small prototypes, but hadn’t had any luck. He then said that if anyone in the audience knew how to do something like that, to get in touch with him. I knew a fair bit about robotics, so I sent him an email saying I could help with the project but didn’t expect I would ever hear back from him.
+During this talk, someone asked Mark a question about one project he had always wanted to do but had never been able to. He said he had a vision for a robot that would set up ton dominoes in a gymnasium overnight and that he had tried some small prototypes, but hadn’t had any luck. He then said that if anyone in the audience knew how to do something like that, to get in touch with him. I knew a fair bit about robotics, so I sent him an email saying I could help with the project but didn’t expect I would ever hear back from him.
 
 He emailed back less than two hours later.
 
@@ -31,19 +31,19 @@ _Mark looking awesome with his flamethrower._
 
 After that first brainstorming meeting, a few clear challenges emerged.
 
-The first challenge was the sheer scale of the undertaking. From the outset, Mark wanted to place at least 100,000 dominos and many of our early designs had the robot carrying all of the dominos and placing a single domino at a time. When you start doing the math of how heavy 100,000 dominos would be (around 850 kg or 1875 lb) or how long it would take to place them all individually (at even 3 seconds/domino you are looking at 3.5 days nonstop!) it became clear that we needed to approach this differently. 
+The first challenge was the sheer scale of the undertaking. From the outset, Mark wanted to place at least 100,000 dominoes and many of our early designs had the robot carrying all of the dominoes and placing a single domino at a time. When you start doing the math of how heavy 100,000 dominoes would be (around 850 kg or 1875 lb) or how long it would take to place them all individually (at even 3 seconds/domino you are looking at 3.5 days nonstop!) it became clear that we needed to approach this differently. 
 
-One of the designs that was sketched out early on involved using a tray that could hold a bunch of dominos and drop them all at once with a sliding mechanism underneath. This tray could then be dropped off on a conveyor belt where it would be refilled and then picked back up later. This idea solved both the weight issue (only carry a few of the dominos at a time) and the timing issue (place many dominos at once and allow various parts to run in parallel). While the final version didn’t turn out exactly like this, many of the same ideas are present in both!
+One of the designs that was sketched out early on involved using a tray that could hold a bunch of dominoes and drop them all at once with a sliding mechanism underneath. This tray could then be dropped off on a conveyor belt where it would be refilled and then picked back up later. This idea solved both the weight issue (only carry a few of the dominoes at a time) and the timing issue (place many dominoes at once and allow various parts to run in parallel). While the final version didn’t turn out exactly like this, many of the same ideas are present in both!
 
 ![](/assets/DominoRobot/DesignJourney/Sketches.jpg)
-_My early (and very messy) sketches of a possible design involving a grid-like tray that can drop a bunch of dominos at once and then let the tray be refilled by a separate system._
+_My early (and very messy) sketches of a possible design involving a grid-like tray that can drop a bunch of dominoes at once and then let the tray be refilled by a separate system._
 
-The second major challenge was localization (fancy robotics word for “ensuring the robot knows where it is”). The robot was going to need to place down dominos close enough that they could knock each other over, but not so close as to knock over already placed dominos. This meant that the robot would need to know its position extremely accurately. This accurate positioning also had to be very reliable as even a single mistake could cause the robot to knock all the dominos down. One of the initial ideas was to try and measure the domino positions relative to the robot with an ultrasonic sensor, which actually seemed quite promising, but turned out to be problematic later on. It was a similar story for the Marvlemind Indoor ‘GPS’ sensors: early testing looked quite promising, but it didn’t scale as well as we expected (See section on The Last Centimeter Problem below for more details on these challenges).
+The second major challenge was localization (fancy robotics word for “ensuring the robot knows where it is”). The robot was going to need to place down dominoes close enough that they could knock each other over, but not so close as to knock over already placed dominoes. This meant that the robot would need to know its position extremely accurately. This accurate positioning also had to be very reliable as even a single mistake could cause the robot to knock all the dominoes down. One of the initial ideas was to try and measure the domino positions relative to the robot with an ultrasonic sensor, which actually seemed quite promising, but turned out to be problematic later on. It was a similar story for the Marvlemind Indoor ‘GPS’ sensors: early testing looked quite promising, but it didn’t scale as well as we expected (See section on The Last Centimeter Problem below for more details on these challenges).
 
 ![](/assets/DominoRobot/DesignJourney/EarlyUSTesting.jpg)
-_Testing the accuracy of an ultrasonic sensor and whether or not it can detect dominos with gaps in them. Turns out that it can (but only in very specific conditions)._
+_Testing the accuracy of an ultrasonic sensor and whether or not it can detect dominoes with gaps in them. Turns out that it can (but only in very specific conditions)._
 
-The third major challenge was ensuring accurate driving. Even if we solved the localization problem and the robot knew where it was very precisely, if it could not control its motion properly, it would not be able to place the dominos accurately enough, or worse, it could knock the dominos over. Early on, I decided that using some sort of omni-directional drive system would massively simplify this problem because it would allow the robot to perform very small correctional motions to align with the dominos without having to back up, adjust, and re-approach the dominos. Imagine the challenge of trying to move exactly 1 inch to the left in your car - that is hard because the car isn’t designed to drive sideways easily. Using these special wheels can help fix that problem, so I bought a cheap [Mecanum wheel](https://en.wikipedia.org/wiki/Mecanum_wheel) kit and Arduino online to test out, and this turned into the very first mobile prototype.
+The third major challenge was ensuring accurate driving. Even if we solved the localization problem and the robot knew where it was very precisely, if it could not control its motion properly, it would not be able to place the dominoes accurately enough, or worse, it could knock the dominoes over. Early on, I decided that using some sort of omni-directional drive system would massively simplify this problem because it would allow the robot to perform very small correctional motions to align with the dominoes without having to back up, adjust, and re-approach the dominoes. Imagine the challenge of trying to move exactly 1 inch to the left in your car - that is hard because the car isn’t designed to drive sideways easily. Using these special wheels can help fix that problem, so I bought a cheap [Mecanum wheel](https://en.wikipedia.org/wiki/Mecanum_wheel) kit and Arduino online to test out, and this turned into the very first mobile prototype.
 
 {% include embed/youtube.html id='h5pUqv-XrqI' %}
 _The first motor tests. Every robot has to start somewhere!_
@@ -96,58 +96,58 @@ Once this major porting effort was completed, the overall robot software archite
 
 At this point, the robot could now drive around nicely using the new motors controlled by the new software system, so the next step was to add the tray to the front of the robot. In a bit of a happy accident, it turned out that the ClearCore had an extra port for controlling a stepper motor that we weren’t using for the drive system and also had enough other I/O ports to handle the tray servo, homing switch, and manual buttons. So, other than having to do some power conversions to get the 24V from the ClearCore down to 5V for driving the tray servo, it was quite straightforward to hook up all of the parts of the tray to the controller and test it out.
 
-After coding up a few simple state machines to sequence the actions for homing and placing dominos, the tray just… worked! It was one of the few pieces of the project that pretty much worked all the time and never had any major issues.
+After coding up a few simple state machines to sequence the actions for homing and placing dominoes, the tray just… worked! It was one of the few pieces of the project that pretty much worked all the time and never had any major issues.
 
 {% include embed/youtube.html id='05yzldq50-s' %}
-_Testing dropping a line of dominos with the tray._
+_Testing dropping a line of dominoes with the tray._
 
 {% include embed/youtube.html id='Ekg0tOrYyZ8' %}
-_A fun little slo-mo shot I took of the dominos falling out of the tray._
+_A fun little slo-mo shot I took of the dominoes falling out of the tray._
 
 ## The Last Centimeter Problem
 
-Based on the results of testing on the early prototypes, the plan for localization was basically to use the Marvelmind sensors as it looked like I was getting sub-centimeter accuracy, which seemed sufficient. If that proved not to be good enough, the backup plan was to add ultrasonic sensors to detect the dominos as those had accuracy of a few millimeters.
+Based on the results of testing on the early prototypes, the plan for localization was basically to use the Marvelmind sensors as it looked like I was getting sub-centimeter accuracy, which seemed sufficient. If that proved not to be good enough, the backup plan was to add ultrasonic sensors to detect the dominoes as those had accuracy of a few millimeters.
 
 And, oh boy, did I underestimate the complexity here (sensing a theme yet?). I won’t bore you with all of the details but here is a list of just a few of the critical problems that I ran into with that plan:
 
 1. The Marvelmind sensor accuracy scales as a function of distance to the base stations. The early tests were in a very small shop where the base stations were quite close to the robot. When we moved to the larger shop, the accuracy got much worse.
 
-2. The robot is quite long with the tray sticking out in front, which meant that small changes in the angle of the robot compounded into much larger changes of the position of the front of the tray. In order to maintain alignment of the dominos, the robot angle had to be accurate to less than half a degree, and the Marvelminds simply couldn’t do that.
+2. The robot is quite long with the tray sticking out in front, which meant that small changes in the angle of the robot compounded into much larger changes of the position of the front of the tray. In order to maintain alignment of the dominoes, the robot angle had to be accurate to less than half a degree, and the Marvelminds simply couldn’t do that.
 
-3. While the ultrasonic sensors could detect the dominos quite accurately in the right conditions, the robot did not have the right conditions. When trying to use forward facing sensors to detect the dominos in front of the robot, the ultrasonic pings would echo off of the floor and the bottom of the tray and cause false readings that were too hard to filter. When trying to use sideways facing sensors to detect the dominos to one side of the robot, the sensors were too close and the edge of the dominos too small to reliably detect them. 
+3. While the ultrasonic sensors could detect the dominoes quite accurately in the right conditions, the robot did not have the right conditions. When trying to use forward facing sensors to detect the dominoes in front of the robot, the ultrasonic pings would echo off of the floor and the bottom of the tray and cause false readings that were too hard to filter. When trying to use sideways facing sensors to detect the dominoes to one side of the robot, the sensors were too close and the edge of the dominoes too small to reliably detect them. 
 
 ![](/assets/DominoRobot/DesignJourney/LateUSTesting.jpg)
 _Testing the ultrasonic sensors on the robot. The ‘blinders’ on the top and bottom were an attempt to reduce reflections that caused problematic measurements._
 
 ![](/assets/DominoRobot/DesignJourney/LateUSTesting2.jpg)
-_Setting down dominos using the ultrasonic sensors. You can see that the alignment is… not very good. This is due to the very noisy readings coming from the ultrasonic sensors._
+_Setting down dominoes using the ultrasonic sensors. You can see that the alignment is… not very good. This is due to the very noisy readings coming from the ultrasonic sensors._
 
-After a few days of trying without success to get these previous methods to work, we decided to ditch the ultrasonic sensors and use the Marvelminds only to get the placement location roughly right, but we still needed something to help out with the final alignment of the dominos. After some discussion, we decided on using downward facing cameras with markers on the ground.
+After a few days of trying without success to get these previous methods to work, we decided to ditch the ultrasonic sensors and use the Marvelminds only to get the placement location roughly right, but we still needed something to help out with the final alignment of the dominoes. After some discussion, we decided on using downward facing cameras with markers on the ground.
 
-I hacked together some code and cameras to test out the marker tracking and it turned out to work quite well! Within a few days the system could set down groups of dominos next to each other that were aligned enough to look good and knock each other over.
+I hacked together some code and cameras to test out the marker tracking and it turned out to work quite well! Within a few days the system could set down groups of dominoes next to each other that were aligned enough to look good and knock each other over.
 
 {% include embed/youtube.html id='Qe1hOkLmXgU' %}
 _The first test of the vision system with the camera sketchily taped to a stick. But hey, it proved out the concept!_
 
 {% include embed/youtube.html id='48-BCOZTmmY' %}
-_One of the first tests of setting down multiple groups of dominos._
+_One of the first tests of setting down multiple groups of dominoes._
 
 ## Dom’s Final Form
 
-All the pieces of the robot were finally in place, so the only thing left to do was to start scaling up the testing and figuring out what would break. Fortunately, no critical problems with the robot were found during this testing, just a lot of small tweaks here and there to improve the reliability. For example, keen-eyed readers may have noticed that the placement of the Marvelminds in these test videos is different from the the final version. Moving the sensors out much further gave significantly better angular tracking when driving longer distances and helped the robot stay localized much better when travelling across the warehouse. I also added some better ‘safety’ features such as automatically shutting the motors off if the ClearCore did not receive any updates from the Raspberry Pi within a few hundred milliseconds to prevent the robot from driving into the dominos in the case of a communication problem.
+All the pieces of the robot were finally in place, so the only thing left to do was to start scaling up the testing and figuring out what would break. Fortunately, no critical problems with the robot were found during this testing, just a lot of small tweaks here and there to improve the reliability. For example, keen-eyed readers may have noticed that the placement of the Marvelminds in these test videos is different from the the final version. Moving the sensors out much further gave significantly better angular tracking when driving longer distances and helped the robot stay localized much better when travelling across the warehouse. I also added some better ‘safety’ features such as automatically shutting the motors off if the ClearCore did not receive any updates from the Raspberry Pi within a few hundred milliseconds to prevent the robot from driving into the dominoes in the case of a communication problem.
 
-And, after ironing out many of these last reliability challenges, the robot did its job amazingly well and set up over 100,000 dominos in just over 24 hours of runtime. It also beat [Lily Hevesh](https://www.youtube.com/user/Hevesh5) in a head to head competition and set a world record. All in all, the engineering effort paid off and we got an awesome robot and a pretty sweet video out of it.
+And, after ironing out many of these last reliability challenges, the robot did its job amazingly well and set up over 100,000 dominoes in just over 24 hours of runtime. It also beat [Lily Hevesh](https://www.youtube.com/user/Hevesh5) in a head to head competition and set a world record. All in all, the engineering effort paid off and we got an awesome robot and a pretty sweet video out of it.
 
 ![](/assets/DominoRobot/DesignJourney/FilmingLily.jpg)
 _Filming with Lily Hevesh. The robot set up the blue in the same time Lily did the red and white._
 
 ![](/assets/DominoRobot/DesignJourney/Waiting.jpg)
-_Waiting nervously for the the big moment where all the dominos would get knocked over._
+_Waiting nervously for the the big moment where all the dominoes would get knocked over._
 
 ![](/assets/DominoRobot/DesignJourney/PostFall.jpg)
-_Congratulating Dom after the dominos fell over._
+_Congratulating Dom after the dominoes fell over._
 
 ![](/assets/DominoRobot/DesignJourney/Cleanup.jpg)
-_The aftermath. Cleaning up 100,000 dominos is a lot of work!!_
+_The aftermath. Cleaning up 100,000 dominoes is a lot of work!!_
 
 Thanks for reading about this crazy engineering journey I went on to make this robot a reality. If you are interested in more details about how the final [hardware]({% post_url 2021-07-26-DominoRobotHardwareOverview %}) or [software]({% post_url 2021-07-24-DominoRobotSoftwareArchitecture %}) worked, I’ve written up articles about those. If you want to dive deep into the technical workings of the [control system]({% post_url 2021-07-22-DominoRobotControlSystem %}) or [trajectory generation]({% post_url 2021-07-23-DominoRobotTrajectoryGeneration %}), I got posts about those as well. 

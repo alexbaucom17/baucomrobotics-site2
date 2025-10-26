@@ -18,11 +18,11 @@ _Domino Robot Software Architecture_
 
 ## Master
 
-The master program is responsible for all of the high level planning of the domino field and sends step-by-step instructions to the robot in order to place the dominos correctly in the field. It runs on a remote laptop that connects to the robot over wifi.
+The master program is responsible for all of the high level planning of the domino field and sends step-by-step instructions to the robot in order to place the dominoes correctly in the field. It runs on a remote laptop that connects to the robot over wifi.
 
 ### Field Planner
 
-The `FieldPlanner` takes in an input image of what the final field should look like. It then generates the domino field by scaling the image to the appropriate size (1 pixel = 1 domino), matching colors in the image with the available domino colors we have, and splitting the image up into 15x20 'tiles' that represent the group of dominos the robot can put down at once. These tiles are then sequenced such that the robot never has to drive near the tiles for very long and the next tile location the robot has to get to is always accessible. Finally, for each tile a sequence of 'actions' is generated which are used as the primary means of communicating with and controlling the robot. These actions are things like Load Dominos, Move to X Position, Move Using Vision, Place Dominos, Request Status, etc. These action sequences form cycles where each cycle places one tile into the field. All the cycles are essentially identical other than the positions the robot moves to. This group of cycles can be saved to and loaded from disk as a 'plan'.
+The `FieldPlanner` takes in an input image of what the final field should look like. It then generates the domino field by scaling the image to the appropriate size (1 pixel = 1 domino), matching colors in the image with the available domino colors we have, and splitting the image up into 15x20 'tiles' that represent the group of dominoes the robot can put down at once. These tiles are then sequenced such that the robot never has to drive near the tiles for very long and the next tile location the robot has to get to is always accessible. Finally, for each tile a sequence of 'actions' is generated which are used as the primary means of communicating with and controlling the robot. These actions are things like Load Dominoes, Move to X Position, Move Using Vision, Place Dominoes, Request Status, etc. These action sequences form cycles where each cycle places one tile into the field. All the cycles are essentially identical other than the positions the robot moves to. This group of cycles can be saved to and loaded from disk as a 'plan'.
 
 ### GUI and Runtime Manager
 
@@ -46,7 +46,7 @@ The `StatusUpdater` maintains the current status of the robot and many other cla
 
 ## Tray Controller
 
-The `TrayController` provides an interface for controlling the tray to load and place dominos. It maintains small state machines for each of the tray actions (PLACE, LOAD, and TRAY_INIT) and sequences individual subcommands (such as moving the lifter to a specific spot, waiting for some amount of time, or opening or closing the latch that holds the dominos) to send to the Motor Driver over a USB Serial connection.
+The `TrayController` provides an interface for controlling the tray to load and place dominoes. It maintains small state machines for each of the tray actions (PLACE, LOAD, and TRAY_INIT) and sequences individual subcommands (such as moving the lifter to a specific spot, waiting for some amount of time, or opening or closing the latch that holds the dominoes) to send to the Motor Driver over a USB Serial connection.
 
 ## Marvelmind Wrapper
 
@@ -74,7 +74,7 @@ The Vision Control Mode is used for all motions where the markers on the floor n
 
 ## Motor Driver
 
-The Motor Driver runs on a Teknic ClearCore which was generously provided by [Teknic](https://teknic.com/) for the project (along with the drive motors for the base). This board functions very much like an 'Industrial Arduino' so much so that Teknic actually provides an Arduino-compatible library so it can be programmed directly from the Arduino IDE. This board is responsible for all of the real time driving of the motors (drive motors and the lifter motor), the servo that drops the dominos, the optical endstop for the lifter, and the buttons to operate the lifter manually.
+The Motor Driver runs on a Teknic ClearCore which was generously provided by [Teknic](https://teknic.com/) for the project (along with the drive motors for the base). This board functions very much like an 'Industrial Arduino' so much so that Teknic actually provides an Arduino-compatible library so it can be programmed directly from the Arduino IDE. This board is responsible for all of the real time driving of the motors (drive motors and the lifter motor), the servo that drops the dominoes, the optical endstop for the lifter, and the buttons to operate the lifter manually.
 
 ### Lifter Action Handler
 
