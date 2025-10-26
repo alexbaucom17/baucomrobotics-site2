@@ -13,12 +13,12 @@ One of the core software components needed for the Domino Robot was a method of 
 
 A relatively standard velocity profile is called a “trapezoidal profile” and uses three constant acceleration segments.
 
-![](/assets/MyFirstComputerBuild/parts.jpg)
+![](/assets/DominoRobot/TrajectoryGeneration/TrapazoidalTrajectoryGeneration_WithGridlines.png)
 _Different regions of a trapezoidal profile._
 
 While this is a very simple method, one of the downsides of it is that it requires infinite jerk at each of the points where the acceleration has an instantaneous jump. This can cause vibrations and jerks (as the name implies) which is not ideal for a robot which needs to smoothly start and stop with high precision near dominos. An alternative to a trapezoidal profile is an “s-curve” profile which, in the general case, consists of seven constant jerk segments which allow for much smoother transitions.
 
-![](/assets/MyFirstComputerBuild/parts.jpg)
+![](/assets/DominoRobot/TrajectoryGeneration/SmoothTrajectoryGeneration_WithGridlines.png)
 _Different regions of an s-curve velocity profile._
 
 I opted to use an s-curve trajectory and implement my own version as the generalized equations are quite [complex](https://journals.sagepub.com/doi/full/10.5772/5652), primarily because they guarantee time optimality (which I didn’t need). In the end, using an s-curve over a trapezoidal profile was probably overkill, but it made for a great learning experience by figuring out the derivations myself and it did allow the robot to drive extremely smoothly.
@@ -276,14 +276,17 @@ Since the switch times, and thus $dt_j$, $dt_a$, and $dt_v$, are known, the line
 
 As I mentioned before, this level of smoothing was probably overkill in the end, but it did produce some very nice results. If you are interested in exploring further, the code can be found in the SmoothTrajectoryGenerator class of the [Domino Robot source code](https://github.com/alexbaucom17/DominoRobot/tree/master/src/robot/src).
 
-![](/assets/MyFirstComputerBuild/parts.jpg)
+![](/assets/DominoRobot/TrajectoryGeneration/SmoothTrajectoryGeneration1.png)
 _Smooth trajectory generation in action (click to enlarge)._
 
-![](/assets/MyFirstComputerBuild/parts.jpg)
+![](/assets/DominoRobot/TrajectoryGeneration/SmoothTrajectoryGeneration2.png)
 _Smooth trajectory generation using the same initial limits as the previous plot, but solving for a much smaller total distance (click to enlarge)_
 
-![](/assets/MyFirstComputerBuild/parts.jpg)
+![](/assets/DominoRobot/TrajectoryGeneration/SmoothTrajectoryGeneration3.png)
+_Smooth trajectory generation using the same initial limits as the previous plots, but solving for a much longer total distance (click to enlarge)._
+
+![](/assets/DominoRobot/TrajectoryGeneration/UnsynchronizedTrajectory.gif)
 _An example of an unsynchronized trajectory where the translation finishes prior to the rotation._
 
-![](/assets/MyFirstComputerBuild/parts.jpg)
+![](/assets/DominoRobot/TrajectoryGeneration/SynchronizedTrajectory.gif)
 _An example of a synchronized trajectory where both the translation and rotation finish at the same time._
