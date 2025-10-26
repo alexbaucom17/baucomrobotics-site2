@@ -4,6 +4,7 @@ date: 2021-07-22 12:30:00 -0700
 categories: [Projects]
 tags: [robotics, dominorobot]     # TAG names should always be lowercase
 math: true
+image: /assets/DominoRobot/ControlSystem/DominoRobotControllerFlowchart.png
 ---
 
 Since the Domino Robot and all its [hardware]({% post_url 2021-07-26-DominoRobotHardwareOverview %}) and [software]({% post_url 2021-07-24-DominoRobotSoftwareArchitecture %}) were custom designed, this meant that I also needed to design a custom control system from the ground up. The diagram below shows all of the major components of the control system and I will explain each one in detail.

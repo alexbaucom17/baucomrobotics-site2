@@ -3,6 +3,7 @@ title: Revamping my Home Server with Ubuntu and Docker
 date: 2018-05-26 12:30:00 -0700
 categories: [Projects]
 tags: [server, ubuntu, docker]     # TAG names should always be lowercase
+image: /assets/RevampingServer/preview.png
 ---
 
 

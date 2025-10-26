@@ -3,6 +3,7 @@ title: Robust Mobile Robot Navigation
 date: 2017-05-09 12:30:00 -0700
 categories: [Projects]
 tags: [robotics, ros]     # TAG names should always be lowercase
+image: /assets/RobustNavigation/towne_levine_full.png
 ---
 
 As I talked about in one of my [previous posts]({% link _posts/2017-01-18-AutonomousServiceRobot.md %}), I have been working on mobile robot navigation for an autonomous service robot project. During the Fall semester, the navigation team was able to successfully enable the robot to navigate the hallways, albeit with quite a bit of last minute hacking. This past semester, I have been continuing work on the navigation system as an independent study research project and I was able to actually achieve robust navigation!

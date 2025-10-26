@@ -3,6 +3,7 @@ title: Domino Robot Software Architecture
 date: 2021-07-24 12:30:00 -0700
 categories: [Projects]
 tags: [robotics, dominorobot]     # TAG names should always be lowercase
+image: /assets/DominoRobot/DominoRobotSoftwareArchitecture.png
 ---
 
 

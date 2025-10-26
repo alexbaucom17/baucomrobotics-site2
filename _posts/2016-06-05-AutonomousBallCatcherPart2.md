@@ -4,8 +4,8 @@ date: 2016-06-05 12:30:00 -0700
 categories: [Projects]
 tags: [robotics, lego]     # TAG names should always be lowercase
 math: true
+image: /assets/BallCatcher2/preview.png
 ---
-
 
 
 If you have read my previous post you will know that I recently built an automated ball catcher and programmed it to track and catch a ball. In that post I showed off the hardware and a video of it in action, so check it out [here]({% post_url 2016-05-24-AutonomousBallCatcherPart1 %}) if you missed it! In this post I will talk about the software behind making the catcher work. If you would like to look through the source code itself, you can find all if it on my [Github page](https://github.com/BaucomRobotics/BallCatcher).

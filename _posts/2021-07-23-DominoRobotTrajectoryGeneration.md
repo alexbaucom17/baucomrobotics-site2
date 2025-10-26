@@ -4,6 +4,7 @@ date: 2021-07-23 12:30:00 -0700
 categories: [Projects]
 tags: [robotics, dominorobot]     # TAG names should always be lowercase
 math: true
+image: /assets/DominoRobot/TrajectoryGeneration/SmoothTrajectoryGeneration1.png
 ---
 
 

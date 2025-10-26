@@ -3,6 +3,7 @@ title: RoboCup Soccer Simulation
 date: 2017-01-12 12:30:00 -0700
 categories: [Projects]
 tags: [robotics, robocup]     # TAG names should always be lowercase
+image: /assets/RobocupSimulation/preview.jpg
 ---
 
 ## Introduction and Background
