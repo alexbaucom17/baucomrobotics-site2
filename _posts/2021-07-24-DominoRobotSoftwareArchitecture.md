@@ -13,7 +13,7 @@ The architecture of the project itself evolved rather organically as the scope a
 
 Below is a diagram that shows all of the major pieces of the software.
 
-![](/assets/MyFirstComputerBuild/parts.jpg)
+![](/assets/DominoRobot/DominoRobotSoftwareArchitecture.png)
 _Domino Robot Software Architecture_
 
 ## Master
