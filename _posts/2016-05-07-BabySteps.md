@@ -3,6 +3,7 @@ title: Baby Steps
 date: 2016-05-07 12:30:00 -0700
 categories: [Projects]
 tags: [robotics]     # TAG names should always be lowercase
+image: /assets/BabySteps/preview.png
 ---
 
 Have you ever thought about how hard it is to walk? It's not something we often think about but, in reality, walking is incredibly difficult! Each step takes coordination between your brain and all the muscles in your legs. Each muscle has to move and contract in the proper sequence to move your leg out, place it on the ground, move forward, and repeat. Not only does your brain have to coordinate your leg motion, but your hips and torso also have to move so that your center of mass remains supported by the current leg that is touching the ground. Lastly, if there is any unevenness in the floor or you trip over a crack in the sidewalk, your brain needs to (very quickly) determine where to put your legs and arms to either catch yourself and prevent a fall, or protect yourself as you fall. It is an incredible and complicated process and when you try to teach a robot how to do it, this complexity really shows.

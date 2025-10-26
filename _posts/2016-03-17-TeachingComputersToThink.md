@@ -3,6 +3,7 @@ title: Teaching Computers to Think! (sort of...)
 date: 2016-03-17 12:30:00 -0700
 categories: [Projects]
 tags: [machinelearning]     # TAG names should always be lowercase
+image: /assets/MachineLearningCourse/preview.jpg
 ---
 
 

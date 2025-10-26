@@ -3,6 +3,7 @@ title: Assembly Language Motor Controller
 date: 2016-02-13 12:30:00 -0700
 categories: [Projects]
 tags: [electronics]     # TAG names should always be lowercase
+image: /assets/AssemblyMotorController/preview.jpg
 ---
 
 Assembly language is a programming language for microchips that is basically one step away from writing binary code. It is fairly tedious to write, which is why very few people code directly in assembly language anymore. So how many lines of assembly language does it take to create a simple PI motor controller on a Motorola 68HC12? About 1500, it turns out...
