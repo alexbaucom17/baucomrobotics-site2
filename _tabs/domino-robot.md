@@ -3,7 +3,8 @@ layout: tag-cards
 title: Domino Robot
 tags_filter: [dominorobot]
 permalink: /domino-robot
-order: 5
+icon: fas fa-lines-leaning
+order: 1
 ---
 
 I had the incredible opportunity to work with [Mark Rober](https://www.youtube.com/user/onemeeeliondollars) on his Domino Robot project. I was responsible for all of the robotics, software, and electronics for the mobile robot. We were only able to cover a tiny bit about how the robot works in the main video, so I’ve written up more technical details below about a few parts of the system for those who may be interested. You can also find all of the software on [Github](https://github.com/alexbaucom17/DominoRobot). 

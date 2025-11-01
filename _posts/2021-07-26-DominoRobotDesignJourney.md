@@ -1,6 +1,6 @@
 ---
 title: Domino Robot Design Journey
-date: 2021-07-25 12:30:00 -0700
+date: 2021-07-26 12:30:00 -0700
 categories: [Projects]
 tags: [robotics, dominorobot]     # TAG names should always be lowercase
 image: /assets/DominoRobot/DesignJourney/preview.jpg
@@ -151,4 +151,4 @@ _Congratulating Dom after the dominoes fell over._
 ![](/assets/DominoRobot/DesignJourney/Cleanup.jpg)
 _The aftermath. Cleaning up 100,000 dominoes is a lot of work!!_
 
-Thanks for reading about this crazy engineering journey I went on to make this robot a reality. If you are interested in more details about how the final [hardware]({% post_url 2021-07-26-DominoRobotHardwareOverview %}) or [software]({% post_url 2021-07-24-DominoRobotSoftwareArchitecture %}) worked, I’ve written up articles about those. If you want to dive deep into the technical workings of the [control system]({% post_url 2021-07-22-DominoRobotControlSystem %}) or [trajectory generation]({% post_url 2021-07-23-DominoRobotTrajectoryGeneration %}), I got posts about those as well. 
+Thanks for reading about this crazy engineering journey I went on to make this robot a reality. If you are interested in more details about how the final [hardware]({% post_url 2021-07-25-DominoRobotHardwareOverview %}) or [software]({% post_url 2021-07-24-DominoRobotSoftwareArchitecture %}) worked, I’ve written up articles about those. If you want to dive deep into the technical workings of the [control system]({% post_url 2021-07-22-DominoRobotControlSystem %}) or [trajectory generation]({% post_url 2021-07-23-DominoRobotTrajectoryGeneration %}), I got posts about those as well. 

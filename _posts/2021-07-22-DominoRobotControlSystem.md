@@ -7,7 +7,7 @@ math: true
 image: /assets/DominoRobot/ControlSystem/DominoRobotControllerFlowchart.png
 ---
 
-Since the Domino Robot and all its [hardware]({% post_url 2021-07-26-DominoRobotHardwareOverview %}) and [software]({% post_url 2021-07-24-DominoRobotSoftwareArchitecture %}) were custom designed, this meant that I also needed to design a custom control system from the ground up. The diagram below shows all of the major components of the control system and I will explain each one in detail.
+Since the Domino Robot and all its [hardware]({% post_url 2021-07-25-DominoRobotHardwareOverview %}) and [software]({% post_url 2021-07-24-DominoRobotSoftwareArchitecture %}) were custom designed, this meant that I also needed to design a custom control system from the ground up. The diagram below shows all of the major components of the control system and I will explain each one in detail.
 
 ![](/assets/DominoRobot/ControlSystem/DominoRobotControllerFlowchart.png)
 _Major components of the Domino Robot Control System (click to enlarge)_

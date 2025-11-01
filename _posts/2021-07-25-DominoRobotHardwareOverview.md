@@ -1,6 +1,6 @@
 ---
 title: Domino Robot Hardware Overview
-date: 2021-07-26 12:30:00 -0700
+date: 2021-07-25 12:30:00 -0700
 categories: [Projects]
 tags: [robotics, dominorobot]     # TAG names should always be lowercase
 image: /assets/DominoRobot/HardwareOverview/preview.jpg
