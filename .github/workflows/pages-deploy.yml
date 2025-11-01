@@ -52,9 +52,9 @@ jobs:
 
       - name: Test site
         # Removed \-\-disable-external \ to validate external links too
+        # Removed \-\-ignore-urls "/^http:\/\/127.0.0.1/,/^http:\/\/0.0.0.0/,/^http:\/\/localhost/"
         run: |
-          bundle exec htmlproofer _site \
-            \-\-ignore-urls "/^http:\/\/127.0.0.1/,/^http:\/\/0.0.0.0/,/^http:\/\/localhost/"
+          bundle exec htmlproofer _site
 
       - name: Upload site artifact
         uses: actions/upload-pages-artifact@v3
