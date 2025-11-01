@@ -21,3 +21,5 @@ As for electronics, the main ‘brains’ of the robot run on a Raspberry Pi 4 w
 ![](/assets/DominoRobot/HardwareOverview/top_view_annotated-1.jpg)
 
 That’s about it for the major hardware components of the robot. Consider checking out the major [software components]({% post_url 2021-07-24-DominoRobotSoftwareArchitecture %}) next!
+
+This is a [broken link](https://www.baucomrobotics.comf/page_that_doesnt_exist.html) test.
