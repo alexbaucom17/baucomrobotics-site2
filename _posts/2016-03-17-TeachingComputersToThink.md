@@ -24,7 +24,7 @@ Lastly, to combat over-fitting, the professor held out another 5000 data points 
 
 Interestingly, the 'easiest' thing to start with was just to skip using images altogether and look at the words people use. With a quick pass using an [AdaBoost algorithm](https://en.wikipedia.org/wiki/AdaBoost) with 2000 decision stumps, we could correctly predict the gender with 88% accuracy. After trying out various MATLAB boosting algorithms, we found we could get the best performance from an algorithm called [LogitBoost](https://www.mathworks.com/help/stats/ensemble-methods.html). We had to reduce the number for decision stumps to 1000 to meet the file size requirements, but this method by itself was still able to get approximately 90% accuracy.
 
-Another method using only the words was to use a [SVM](https://en.wikipedia.org/wiki/Support_vector_machine) and a kernel called a [histogram intersection kernel](https://pdfs.semanticscholar.org/0037/954b377d37d0cae378b601c1cd492d65a0ff.pdf) which also got about 90% accuracy. An important note here was that the 10% error that this SVM had was, on average, a different 10% of the sample than the boosting got wrong. This meant that combining these two methods later would actually be useful.
+Another method using only the words was to use a [SVM](https://en.wikipedia.org/wiki/Support_vector_machine) and a kernel called a [histogram intersection kernel](https://file.scirp.org/pdf/JCC_2015112015262272.pdf) which also got about 90% accuracy. An important note here was that the 10% error that this SVM had was, on average, a different 10% of the sample than the boosting got wrong. This meant that combining these two methods later would actually be useful.
 
 
 ## Images

@@ -56,8 +56,6 @@ Even with all of these optimizations I decided it was not feasible to run the nu
 
 This project became a lot bigger and more involved than I had anticipated when I set out to build a simulation tool for our RoboCup team. I have learned a ton about motion planning, multi-robot coordination, optimization, and machine learning. I hope to get the simulation running on AWS soon and see if the learning really can improve performance in this case. I will be sure to update this post if/when I get those results. In the mean time I am going to start working on taking some of what I learned from all my simulation testing and port it over to the actual robots since we have the U.S. Open competition coming up in a few months!
 
-## Extra Stuff
+## The Code
 
 If you would like to look at or play with any of the source code you can check it out on [Github](https://github.com/alexbaucom17/RoboCupSoccerSim).
-
-This work was part of a Penn RoboCup Presentation at the [2016 Humanoids Conference](https://lofarolabs.com/events/robocup/ws16/program.php). You can read the paper than my colleague [Yongbo](https://www.grasp.upenn.edu/people/yongbo-qian) and I wrote [here](https://fling.seas.upenn.edu/~robocup/files/Humanoids2016_Qian_Baucom.pdf).

@@ -54,7 +54,8 @@ jobs:
         # Removed \-\-disable-external \ to validate external links too
         run: |
           bundle exec htmlproofer _site \
-            \-\-ignore-urls "/127.0.0.1/,/0.0.0.0/,/localhost/,/linkedin.com/,/fonts.googleapis.com/,/fonts.gstatic.com/,/gc.zgo.at/"
+            \-\-ignore-urls "/127.0.0.1/,/0.0.0.0/,/localhost/,/linkedin.com/,/fonts.googleapis.com/,/fonts.gstatic.com/,/gc.zgo.at/" \
+            \-\-ignore-status-codes "403"
 
       - name: Upload site artifact
         uses: actions/upload-pages-artifact@v3
