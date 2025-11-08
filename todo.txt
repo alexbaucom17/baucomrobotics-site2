@@ -1,9 +1,4 @@
-Before migrating:
-- Add domino robot landing page
-- Run a spell/link checker
-- Refresh abaout page?
-
-New posts:
+New posts ideas:
 - Ben eater project
 - Finish 2040 v2?
 - Walle when more progress is made
