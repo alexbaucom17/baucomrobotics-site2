@@ -216,8 +216,9 @@ exclude:
   - todo.txt
 
 jekyll-archives:
-  enabled: [tags]
+  enabled: [categories, tags]
   layouts:
+    category: category
     tag: tag
   permalinks:
     tag: /tags/:name/
