@@ -4,7 +4,7 @@
 
 Jekyll::Hooks.register :posts, :post_init do |post|
   # Define the cutoff date (ISO format so Ruby Time can parse it)
-  cutoff_date = Time.parse("2025-11-03T00:00:00-0700")
+  cutoff_date = Time.parse("2025-11-09T00:00:00-0700")
 
   commit_num = `git rev-list --count HEAD "#{ post.path }"`.to_i
 
