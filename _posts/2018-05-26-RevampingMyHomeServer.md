@@ -7,7 +7,7 @@ image: /assets/RevampingServer/preview.png
 ---
 
 
-A few months back, I re-purposed some old computer parts to make myself a simple file server. I originally set everything up with [Amahi](https://www.amahi.org/) because it promised to be simple and powerful. While it was a good stepping stone for me into the world of home servers, I quickly outgrew it's capabilities and wanted my own system that I had more control over.
+A few months back, I re-purposed some old computer parts to make myself a simple file server. I originally set everything up with Amahi because it promised to be simple and powerful. While it was a good stepping stone for me into the world of home servers, I quickly outgrew it's capabilities and wanted my own system that I had more control over.
 
 So, I set out to make my own with [Ubuntu](https://www.ubuntu.com/) as the base OS and decided to try out [Docker](https://www.docker.com/) along the way. This post is not designed to be a tutorial, but rather provide detail about the process I went through to get my system up and running. This worked for me and should be applicable to those with similar setups, but your mileage may vary.
 
@@ -43,7 +43,7 @@ After the RAID array finished setting itself up I had a boot drive at _/dev/sda_
 
 ## Samba
 
-Now that all of my data was present, I wanted to set up Samba to make that data available to all of the other PCs in my house. I followed [this guide](https://help.ubuntu.com/community/How%20to%20Create%20a%20Network%20Share%20Via%20Samba%20Via%20CLI%20%28Command-line%20interface/Linux%20Terminal%29%20-%20Uncomplicated,%20Simple%20and%20Brief%20Way!) which was straightforward and worked perfectly for me. The basic gist was that I installed samba, set up the users I needed, edited _/etc/samba/smb.conf_ to add my shares, and rebooted the samba service. Just like that all of my files were available to the rest of the network.
+Now that all of my data was present, I wanted to set up Samba to make that data available to all of the other PCs in my house. I followed [this guide](https://ubuntu.com/tutorials/install-and-configure-samba) which was straightforward and worked perfectly for me. The basic gist was that I installed samba, set up the users I needed, edited _/etc/samba/smb.conf_ to add my shares, and rebooted the samba service. Just like that all of my files were available to the rest of the network.
 
 ## Firewall
 
