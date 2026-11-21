@@ -4,6 +4,7 @@ date: 2016-03-19 12:30:00 -0700
 categories: [Projects]
 tags: [robotics]     # TAG names should always be lowercase
 image: /assets/Nanocopters/preview.png
+description: "Programming autonomous quadcopters to plan paths and fly around obstacles."
 ---
 
 

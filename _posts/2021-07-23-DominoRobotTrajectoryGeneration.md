@@ -5,6 +5,7 @@ categories: [Projects]
 tags: [robotics, dominorobot]     # TAG names should always be lowercase
 math: true
 image: /assets/DominoRobot/TrajectoryGeneration/SmoothTrajectoryGeneration1.png
+description: "Generating smooth S-curve velocity profiles to drive the Domino Robot safely."
 ---
 
 

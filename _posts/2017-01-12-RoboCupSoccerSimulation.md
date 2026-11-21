@@ -4,6 +4,7 @@ date: 2017-01-12 12:30:00 -0700
 categories: [Projects]
 tags: [robotics, robocup]     # TAG names should always be lowercase
 image: /assets/RobocupSimulation/preview.jpg
+description: "Building a robot soccer simulator to test and learn team positioning strategies."
 ---
 
 ## Introduction and Background

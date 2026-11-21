@@ -5,6 +5,7 @@ categories: [Projects]
 tags: [robotics, lego]     # TAG names should always be lowercase
 math: true
 image: /assets/BallCatcher2/preview.png
+description: "Using computer vision and trajectory prediction in MATLAB to catch a flying ball."
 ---
 
 

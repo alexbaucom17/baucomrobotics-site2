@@ -4,6 +4,7 @@ date: 2016-01-13 12:30:00 -0700
 categories: [Projects]
 tags: [3dprinting]     # TAG names should always be lowercase
 image: /assets/BuildingA3dPrinter/preview.jpg
+description: "Building and troubleshooting a DIY RepRap 3D printer in a college dorm room."
 ---
 
 

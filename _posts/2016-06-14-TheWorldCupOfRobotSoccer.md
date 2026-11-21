@@ -4,6 +4,7 @@ date: 2016-07-14 12:30:00 -0700
 categories: [Projects]
 tags: [robotics, robocup]     # TAG names should always be lowercase
 image: /assets/Robocup/roboline2.jpg
+description: "Competing at RoboCup in Germany and improving localization on our soccer robots."
 ---
 
 A few weeks ago I had the chance to attend [RoboCup 2016](https://www.robocup.org/) in Leipzig, Germany. RoboCup is sort of like the World Cup, but for robots. Various teams from around the world bring their robots together to compete in robotic soccer as well as all sorts of other events like search and rescue, the Amazon Picking Challenge, industrial logistics, and home service. 

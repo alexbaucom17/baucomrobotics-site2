@@ -4,6 +4,7 @@ date: 2016-03-15 12:30:00 -0700
 categories: [Projects]
 tags: [robotics]     # TAG names should always be lowercase
 image: /assets/RoboRodentia/preview.png
+description: "Lessons in keeping designs simple after building an overly complex competition robot."
 ---
 
 While I was studying at Cal Poly San Luis Obispo, I got the chance to participate in a competition called RoboRodentia during my freshman year. Our robot performed rather poorly since all our sensors decided to stop working the day of the competition and ever since then I vowed I would re-enter the competition and do better. Due to other circumstances, I didn't get that chance until my senior year when I decided to try flying solo and entering my own robot.

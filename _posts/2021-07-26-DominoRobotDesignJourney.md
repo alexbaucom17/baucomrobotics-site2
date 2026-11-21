@@ -4,6 +4,7 @@ date: 2021-07-26 12:30:00 -0700
 categories: [Projects]
 tags: [robotics, dominorobot]     # TAG names should always be lowercase
 image: /assets/DominoRobot/DesignJourney/preview.jpg
+description: "Teaming up with Mark Rober to design and build an autonomous domino-placing robot."
 ---
 
 

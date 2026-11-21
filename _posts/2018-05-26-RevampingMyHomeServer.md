@@ -4,6 +4,7 @@ date: 2018-05-26 12:30:00 -0700
 categories: [Projects]
 tags: [server, ubuntu, docker]     # TAG names should always be lowercase
 image: /assets/RevampingServer/preview.png
+description: "Rebuilding my home server on Ubuntu with RAID storage, file sharing, and Docker."
 ---
 
 

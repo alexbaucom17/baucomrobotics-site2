@@ -4,6 +4,7 @@ date: 2016-05-25 12:30:00 -0700
 categories: [Projects]
 tags: [robotics, lego]     # TAG names should always be lowercase
 image: /assets/BallCatcher1/preview.JPG
+description: "Designing a mechanical launcher and high-speed LEGO cart to catch a ball in midair."
 ---
 
 Launch a ball. Track the ball. Catch the ball. It is a simple concept - one that we humans learn at a very young age while playing ‘catch.’ But to get a robotic system to perform similar actions is a very different game. In this project I will talk about how I built and programmed my own autonomous system to track a ball in flight and catch it in an autonomous cart.

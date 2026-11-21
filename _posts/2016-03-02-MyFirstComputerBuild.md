@@ -4,6 +4,7 @@ date: 2016-03-02 12:30:00 -0700
 categories: [Projects]
 tags: [pcs, computers]     # TAG names should always be lowercase
 image: /assets/MyFirstComputerBuild/close-up.jpg
+description: "Learning PC hardware and putting together my first water-cooled desktop computer."
 ---
 
 I have always been interested in computers, but in the summer of 2014, I finally got to build one myself.

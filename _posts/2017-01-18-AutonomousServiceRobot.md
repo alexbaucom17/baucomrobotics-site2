@@ -4,6 +4,7 @@ date: 2017-01-18 12:30:00 -0700
 categories: [Projects]
 tags: [robotics, ros]     # TAG names should always be lowercase
 image: /assets/ServiceRobot/sample_map.png
+description: "Designing a ROS-based indoor service robot for hallway navigation and delivery tasks."
 ---
 
 ## Introduction

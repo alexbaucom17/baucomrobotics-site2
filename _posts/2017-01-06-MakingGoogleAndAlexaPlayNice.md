@@ -4,6 +4,7 @@ date: 2017-01-06 12:30:00 -0700
 categories: [Projects]
 tags: [raspberry pi, DIY]     # TAG names should always be lowercase
 image: /assets/GoogleAlexa/preview.jpg
+description: "Setting up a custom Alexa skill on a Raspberry Pi to stream from Google Music."
 ---
 
 For Christmas I got an Amazon Echo Dot as a gift. I had played with one a little bit before and thought they were pretty neat but I had never used on for an extended period of time.

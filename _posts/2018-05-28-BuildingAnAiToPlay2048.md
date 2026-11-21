@@ -4,6 +4,7 @@ date: 2018-05-28 12:30:00 -0700
 categories: [Projects]
 tags: [ml, ai]     # TAG names should always be lowercase
 image: /assets/AI2048/preview.png
+description: "Building a neural network and genetic algorithm from scratch in Python to play 2048."
 ---
 
 
