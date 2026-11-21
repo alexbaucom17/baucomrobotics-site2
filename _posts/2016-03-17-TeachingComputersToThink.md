@@ -30,7 +30,7 @@ Another method using only the words was to use a [SVM](https://en.wikipedia.org/
 
 ## Images
 
-Images are inherently tricky to work with since they are so large and individual pixels are not usually very descriptive by themselves, even if the image as a whole is very descriptive. In order to deal with this, a popular trick is to try to condense images into a smaller number of more descriptive features. We did this by using the open source library [VLFeat](https://www.vlfeat.org/index.html) which has a lot of really useful computer vision algorithms already implemented.
+Images are inherently tricky to work with since they are so large and individual pixels are not usually very descriptive by themselves, even if the image as a whole is very descriptive. In order to deal with this, a popular trick is to try to condense images into a smaller number of more descriptive features. We did this by using the open source library [VLFeat](https://github.com/vlfeat/vlfeat) which has a lot of really useful computer vision algorithms already implemented.
 
 We used dense SIFT to extract feature descriptors and then found the most important combinations of these descriptors using [PCA](https://en.wikipedia.org/wiki/Principal_component_analysis). We then augmented each feature with its x and y location in the image and created 256 clusters of features using a [Gaussian Mixture Model](https://en.wikipedia.org/wiki/Mixture_model#Gaussian_mixture_model). All of this allowed us to condense the information into 256 very descriptive features instead of 30,000 not very descriptive pixels. These 256 clusters were used to train another SVM which gave us about 84% accuracy by itself.
 
